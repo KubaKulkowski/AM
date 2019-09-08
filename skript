@@ -1,0 +1,28 @@
+# ######################### #
+# Skript by Kuba Kulkowski  #
+# Wersja 0.2 (Updatuje sie) #
+# ######################### #
+
+# ################# #
+# Tworzenie configu #
+# ################# #
+on script load:
+	if folder "plugins/Skript/scripts/AM" doesn't exists:
+		create folder "plugins/Skript/scripts/AM"
+		create file "plugins/Skript/scripts/AM/config.yml"
+		send "&8[&aAM&8] &bStworzono config!"
+
+# ############ #
+# Aktualizacje #
+# ############ #
+on script load:
+	set {ver__} to "0"
+	set {ver__} to result of connect to "https://raw.githubusercontent.com/KubaKulkowski/AM/master/ver"
+	if {ver__} is not "0.1":
+		send "&8[&aAM&8]&6 Dostępna jest nowa aktualizacja skryptu!" to all 
+		send "&8[&aAM&8]&6 W ciągu paru sekund zostanie ona pobrana!" to all players
+		delete file "plugins/Skript/scripts/AM.sk"
+		download "https://raw.githubusercontent.com/KubaKulkowski/AM/master/skript" to file "plugins/Skript/scripts/AM.sk"
+		wait 2 second
+		send "&8[&aAM&8]&6 Aktualizacja zostala pobrana!" to all players
+		execute console command "sk reload AM.sk"
