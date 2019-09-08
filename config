@@ -1,1 +1,16 @@
-
+Opcje:
+  Czy wiadomosci maja byc wysylane randomowo czy po kolei? (Randomowo = Tak / Po kolei = Nie) (Standardowo jest ustawione Po Kolei)
+  Random: Nie
+  Czy tag ma byc przed wiadomosciami? (Widoczny = Tak / Nie widoczny = Nie) (Standardowo jest ustawione na Nie)
+  Tag: Nie
+Wiadomosci:
+  Tag:
+  1:
+  2:
+  3:
+  4:
+  5:
+  6:
+  7:
+  8:
+Koniec (Wiem krotki i prosty skrypt)
