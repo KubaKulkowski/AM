@@ -3,7 +3,7 @@ Opcje:
   Random: Nie
   Czy tag ma byc przed wiadomosciami? (Widoczny = Tak / Nie widoczny = Nie) (Standardowo jest ustawione na Nie)
   Tag: Nie
-  Co ile sekund ma sie pojawiac wiadomosc
+  Co ile sekund ma sie pojawiac wiadomosc?
   Czas: 30
 Wiadomosci:
   Tag:
@@ -15,4 +15,3 @@ Wiadomosci:
   6:
   7:
   8:
-Koniec (Wiem krotki i prosty skrypt)
