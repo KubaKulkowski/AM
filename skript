@@ -1,6 +1,6 @@
 # ######################### #
 # Skript by Kuba Kulkowski  #
-# Wersja 0.2 (Updatuje sie) #
+# Wersja 0.1 (Updatuje sie) #
 # ######################### #
 
 # ################# #
@@ -18,7 +18,7 @@ on script load:
 on script load:
 	set {ver__} to "0"
 	set {ver__} to result of connect to "https://raw.githubusercontent.com/KubaKulkowski/AM/master/ver"
-	if {ver__} is not "0.2":
+	if {ver__} is not "0.1":
 		send "&8[&aAM&8]&6 Dostępna jest nowa aktualizacja skryptu!" to all players
 		send "&8[&aAM&8]&6 W ciągu paru sekund zostanie ona pobrana!" to all players
 		delete file "plugins/Skript/scripts/AM.sk"
